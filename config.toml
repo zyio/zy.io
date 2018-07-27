@@ -1,4 +1,4 @@
-baseURL = "http://zy.io/"
+baseURL = "https://zy.io/"
 languageCode = "en-gb"
 title = "Sam Norbury"
 theme = "minimal"
