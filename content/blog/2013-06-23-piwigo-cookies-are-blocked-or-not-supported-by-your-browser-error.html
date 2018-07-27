@@ -1,0 +1,28 @@
+---
+layout: post
+title: Piwigo "Cookies are blocked or not supported by your browser" error
+date: 2013-06-23 20:00:31.000000000 +02:00
+hidden: true
+categories: archive []
+tags: []
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '1'
+author:
+  login: zadmin
+  email: sam.norbury@gmail.com
+  display_name: zadmin
+  first_name: ''
+  last_name: ''
+---
+<p>"Cookies are blocked or not supported by your browser. You must enable cookies to connect."</p>
+<p>Just been beating my head against the wall on this one.</p>
+<p>Checking it wasn't browser</p>
+<p>fiddled with php session/cookie settings</p>
+<p>switched from apache to nginx</p>
+<p>changed from files to memcache for session handler</p>
+<p>realised it didn't happen when I went to pics.zy.io:6694</p>
+<p>switched return(pass) to return(pipe)</p>
+<p>all is well</p>
