@@ -1,12 +1,12 @@
 baseURL = "https://zy.io/"
 languageCode = "en-gb"
-title = "Sam Norbury"
+title = "zy.io"
 theme = "minimal"
 googleAnalytics = ""
 
 [params]
-    author = "Sam Norbury"
-    description = "DevOps consultant. Likes Ansible and long walks on the beach."
+    author = "zy.io limited"
+    description = "DevOps consultancy. YAML wranglers. Ansible apologists."
     githubUsername = "zyio"
     accent = "green"
     showBorder = true
@@ -23,7 +23,7 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.main]]
-    url = "/blog/"
+    url = "/posts/"
     name = "Posts"
     weight = 2
 
@@ -40,11 +40,6 @@ googleAnalytics = ""
     url = "mailto:sam@zy.io"
     name = "envelope-o"
     weight = 1
-
-[[menu.icon]]
-    url = "https://www.instagram.com/sam.norbury/"
-    name = "instagram"
-    weight = 2
 
 [[menu.icon]]
     url = "https://github.com/zyio/"
