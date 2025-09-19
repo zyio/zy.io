@@ -1,0 +1,72 @@
+title: zy.io
+description: DevOps consultancy for complex environments. From legacy modernisation to greenfield builds.
+baseurl: ""
+url: https://zy.io
+
+theme: cvless
+
+# site settings
+taglong: DevOps consultancy for complex environments. From legacy modernisation to greenfield builds.
+tagshort: DevOps consultancy.
+cv: false
+clients: true
+
+
+# author settings
+author:
+  name: zy.io Limited
+  email: sam@zy.io
+#photo: assets/files/photo.jpg
+# joblines:
+#   - University of Jekyll
+#   - Department of Themes
+#   - 123 Main St, Anytown, USA
+# address: Foobar Hall 1.23
+# phone: +1 234 567 890
+
+# profile links
+profile:
+  # facebook: https://www.facebook.com/username
+  # x: https://x.com/username
+  # mastodon: https://mastodon.social/@username
+  # bluesky: https://bsky.app/profile/username.bsky.social
+  # instagram: https://www.instagram.com/username
+  github: https://github.com/zyio
+  linkedin: https://www.linkedin.com/in/sam-norbury
+  # xing: https://www.xing.com/profile/username
+  # stackoverflow: https://stackoverflow.com/users/0000000/username
+  # medium: https://medium.com/@username
+
+
+# build settings
+permalink: pretty
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - vendor/
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
+  
