@@ -3,7 +3,7 @@ description: DevOps consultancy for complex environments. From legacy modernisat
 baseurl: ""
 url: https://zy.io
 
-theme: cvless
+#theme: cvless
 
 # site settings
 taglong: DevOps consultancy for complex environments. From legacy modernisation to greenfield builds.
