@@ -1,12 +1,12 @@
 title: zy.io
-description: DevOps consultancy for complex environments. From legacy modernisation to greenfield builds.
+description: DevOps consultancy for complex environments. Legacy modernisation and greenfield builds.
 baseurl: ""
 url: https://zy.io
 
 #theme: cvless
 
 # site settings
-taglong: DevOps consultancy for complex environments. From legacy modernisation to greenfield builds.
+taglong: DevOps consultancy for complex environments. Legacy modernisation and greenfield builds.
 tagshort: DevOps consultancy.
 cv: false
 clients: true
